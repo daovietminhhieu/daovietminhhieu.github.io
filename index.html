@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Trang Chủ</title>
+  <title>Trang Chủ - Social Login Demo</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 600px; margin: 2rem auto; padding: 1rem; }
-    nav a { margin-right: 1rem; }
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 2rem auto; padding: 1rem; }
+    nav a { margin-right: 1rem; text-decoration: none; color: #0b74de; }
+    nav a:hover { text-decoration: underline; }
+    h1 { color: #333; }
   </style>
 </head>
 <body>
-  <h1>Chào mừng đến với trang web của tôi</h1>
-  <p>Đây là trang chủ của bạn.</p>
+  <h1>Chào mừng bạn đến với Social Login Demo</h1>
+  <p>Đây là trang chủ demo tích hợp đăng nhập Facebook qua Firebase.</p>
 
   <nav>
     <a href="terms.html">Điều khoản dịch vụ</a>
-    <!-- Bạn có thể thêm các liên kết khác ở đây -->
+    <a href="privacy.html">Chính sách bảo mật</a>
+    <a href="data-deletion.html">Xóa dữ liệu người dùng</a>
   </nav>
+
+  <section style="margin-top: 2rem;">
+    <h2>Hướng dẫn</h2>
+    <p>Bạn có thể tích hợp các phương thức đăng nhập xã hội như Facebook, Google, Zalo, LinkedIn bằng Firebase Authentication.</p>
+    <p>Ở đây, trang demo tập trung vào đăng nhập Facebook.</p>
+  </section>
 </body>
 </html>
